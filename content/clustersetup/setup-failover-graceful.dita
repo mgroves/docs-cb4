@@ -4,6 +4,7 @@
   <title>Using Graceful Failover</title> <shortdesc>Graceful failover is used to eject a node containing the Data service from the cluster
     after all in-flight operations, and data synchronizations are complete.</shortdesc>
   <body>
+    <p>I'm making this change only as a demonstration.</p>
     <p>Graceful failover is a method of safely ejecting a node containing the Data service from a
       Couchbase cluster where the Cluster Manager initiates data synchronization between nodes of
       the cluster before removal. It is most commonly used for planned maintenance on the cluster to
